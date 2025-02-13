@@ -1,13 +1,13 @@
 // src/app.module.ts
 import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
-import * as oracledb from 'oracledb'; // Import the oracledb module
 import { AdminModule } from './admin/admin.module';
 import { UserModule } from './user/user.module';
 import { GroceryModule } from './grocery/grocery.module';
 import { OrderModule } from './order/order.module';
 import { Grocery } from './grocery/grocery.entity';
 import { Order } from './order/order.entity';
+import * as oracledb from 'oracledb';
 
 @Module({
   imports: [
