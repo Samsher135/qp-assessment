@@ -1,0 +1,10 @@
+version: '3'
+services:
+  app:
+    build: .
+    ports:
+      - '3000:3000'
+    environment:
+      - DB_USER=MY_AP
+      - DB_PASS=MY_AP_123
+      - DB_CONNECT_STRING=localhost:1548/MY206DEV
