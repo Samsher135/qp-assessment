@@ -214,7 +214,7 @@ If you wish to contribute or modify the project, follow these steps:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/grocery-booking-api.git
+   git clone https://github.com/Samsher135/grocery-booking-api.git
    ```
 
 2. **Create a new branch** for your feature or bug fix:
